@@ -1,10 +1,8 @@
 package cipherTest
 import cipher.Cipher
-import com.sun.javaws.exceptions.InvalidArgumentException
 import junit.framework.Assert.assertEquals
 import org.junit.Before
 import org.junit.Test
-import kotlin.test.assertFailsWith
 
 class CipherTest {
 
@@ -45,10 +43,6 @@ class CipherTest {
         cipher!!.encipher("Kathryn", -2)
     }
 
-    @Test
-    fun getDictTest() {
-        assert(cipher!!.getDictionary())
-    }
 
     @Test
     fun encipherTest() {

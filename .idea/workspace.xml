@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2b7f984-6d01-4b3e-ac27-1ae40527b85a" name="Default" comment="" />
+    <list default="true" id="c2b7f984-6d01-4b3e-ac27-1ae40527b85a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cipher/Cipher.kt" afterPath="$PROJECT_DIR$/src/cipher/Cipher.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/cipherTest/CipherTest.kt" afterPath="$PROJECT_DIR$/test/cipherTest/CipherTest.kt" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,23 +15,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Cipher.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Cipher.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cipher/Cipher.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="68" column="98" lean-forward="false" selection-start-line="68" selection-start-column="98" selection-end-line="68" selection-end-column="98" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CipherTest.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CipherTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/cipherTest/CipherTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+            <state relative-caret-position="-725">
+              <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
               <folding>
-                <element signature="e#19#221#0" expanded="true" />
+                <element signature="e#19#128#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,7 +69,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1920" />
     <option name="height" value="1200" />
   </component>
@@ -403,7 +406,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518859629666</updated>
-      <workItem from="1518859633147" duration="7788000" />
+      <workItem from="1518859633147" duration="8773000" />
     </task>
     <servers />
   </component>
@@ -440,10 +443,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7788000" />
+    <option name="totallyTimeSpent" value="8773000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1046" extended-state="7" />
+    <frame x="-11" y="-11" width="1942" height="1046" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -502,21 +505,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cipher/Cipher.kt">
+    <entry file="file://$PROJECT_DIR$/test/cipherTest/CipherTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-725">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding>
+            <element signature="e#19#128#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/cipherTest/CipherTest.kt">
+    <entry file="file://$PROJECT_DIR$/src/cipher/Cipher.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-          <folding>
-            <element signature="e#19#221#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="68" column="98" lean-forward="false" selection-start-line="68" selection-start-column="98" selection-end-line="68" selection-end-column="98" />
+          <folding />
         </state>
       </provider>
     </entry>
