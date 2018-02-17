@@ -40,7 +40,7 @@ class Cipher {
     /**
      * Helper function to rotate each char by n
      */
-    fun rotate(c: Char, n: Int): Char = when {
+    private fun rotate(c: Char, n: Int): Char = when {
         c.isLetter() -> {
             var modifier = 0
             if (c.isUpperCase()) modifier = UPPER_MODIFIER else modifier = LOWER_MODIFIER
@@ -68,7 +68,7 @@ class Cipher {
     /**
      * Retrieves online English dictionary from given URL in text form to test whether words exist
      */
-    fun getDictionary() {
+    private fun getDictionary() {
         val address = URL("https://raw.githubusercontent.com/eneko/data-repository/master/data/words.txt")
         val text = address.readText().split("\n")
         text.iterator().forEach { dictionary.add(it.toLowerCase()) }
