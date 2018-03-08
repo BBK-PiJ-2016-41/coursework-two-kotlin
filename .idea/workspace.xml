@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2b7f984-6d01-4b3e-ac27-1ae40527b85a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cipher/Cipher.kt" afterPath="$PROJECT_DIR$/src/cipher/Cipher.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/cipherTest/CipherTest.kt" afterPath="$PROJECT_DIR$/test/cipherTest/CipherTest.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,12 +15,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file leaf-file-name="Cipher.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cipher/Cipher.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-480">
-              <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+            <state relative-caret-position="220">
+              <caret line="78" column="33" lean-forward="true" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -27,8 +29,8 @@
       <file leaf-file-name="CipherTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/cipherTest/CipherTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-725">
-              <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="150">
+              <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
               <folding>
                 <element signature="e#19#128#0" expanded="true" />
               </folding>
@@ -88,6 +90,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,9 +131,6 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -152,7 +154,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CipherTest.encipherTest">
+  <component name="RunManager" selected="JUnit.CipherTest">
     <configuration name="CipherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -178,7 +180,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="CipherTest.encipherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CipherTest.decipherNonExistentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="cipherTest.*" />
@@ -190,7 +192,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="cipherTest" />
       <option name="MAIN_CLASS_NAME" value="cipherTest.CipherTest" />
-      <option name="METHOD_NAME" value="encipherTest" />
+      <option name="METHOD_NAME" value="decipherNonExistentTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -203,7 +205,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="CipherTest.getDictTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CipherTest.decipherPunctuationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="cipherTest.*" />
@@ -215,7 +217,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="cipherTest" />
       <option name="MAIN_CLASS_NAME" value="cipherTest.CipherTest" />
-      <option name="METHOD_NAME" value="getDictTest" />
+      <option name="METHOD_NAME" value="decipherPunctuationTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -228,7 +230,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="CipherTest.recursiveTestCircularCaps" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CipherTest.decipherSingleWordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="cipherTest.*" />
@@ -240,7 +242,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="cipherTest" />
       <option name="MAIN_CLASS_NAME" value="cipherTest.CipherTest" />
-      <option name="METHOD_NAME" value="recursiveTestCircularCaps" />
+      <option name="METHOD_NAME" value="decipherSingleWordTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -253,7 +255,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="CipherTest.recursiveTestPunctuation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CipherTest.encipherTestPunctuationNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="cipherTest.*" />
@@ -265,7 +267,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="cipherTest" />
       <option name="MAIN_CLASS_NAME" value="cipherTest.CipherTest" />
-      <option name="METHOD_NAME" value="recursiveTestPunctuation" />
+      <option name="METHOD_NAME" value="encipherTestPunctuationNumbers" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -371,19 +373,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CipherTest.recursiveTestCircularCaps" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CipherTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CipherTest.recursiveTestPunctuation" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CipherTest.getDictTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CipherTest.encipherTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CipherTest.encipherTestPunctuationNumbers" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CipherTest.decipherSingleWordTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CipherTest.decipherNonExistentTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CipherTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CipherTest.decipherPunctuationTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CipherTest.encipherTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CipherTest.getDictTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CipherTest.recursiveTestPunctuation" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CipherTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CipherTest.recursiveTestCircularCaps" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CipherTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CipherTest.decipherPunctuationTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CipherTest.decipherNonExistentTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CipherTest.decipherSingleWordTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CipherTest.encipherTestPunctuationNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -405,76 +407,78 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518859629666</updated>
-      <workItem from="1518859633147" duration="8955000" />
+      <workItem from="1518859633147" duration="8998000" />
+      <workItem from="1518964540690" duration="12000" />
+      <workItem from="1520532038735" duration="2745000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CipherTest - 2018.02.17 at 10h 25m 01s.xml">
+    <history-entry file="CipherTest - 2018.03.08 at 18h 39m 36s.xml">
       <configuration name="CipherTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CipherTest_encipherTest - 2018.02.17 at 11h 13m 20s.xml">
-      <configuration name="CipherTest.encipherTest" configurationId="JUnit" />
+    <history-entry file="CipherTest - 2018.03.08 at 18h 40m 41s.xml">
+      <configuration name="CipherTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CipherTest_encipherTest - 2018.02.17 at 11h 14m 20s.xml">
-      <configuration name="CipherTest.encipherTest" configurationId="JUnit" />
+    <history-entry file="CipherTest - 2018.03.08 at 18h 42m 59s.xml">
+      <configuration name="CipherTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CipherTest_encipherTest - 2018.02.17 at 11h 15m 01s.xml">
-      <configuration name="CipherTest.encipherTest" configurationId="JUnit" />
+    <history-entry file="CipherTest_decipherNonExistentTest - 2018.03.08 at 18h 36m 02s.xml">
+      <configuration name="CipherTest.decipherNonExistentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CipherTest_encipherTest - 2018.02.17 at 11h 15m 19s.xml">
-      <configuration name="CipherTest.encipherTest" configurationId="JUnit" />
+    <history-entry file="CipherTest_decipherNonExistentTest - 2018.03.08 at 18h 36m 27s.xml">
+      <configuration name="CipherTest.decipherNonExistentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CipherTest_encipherTest - 2018.02.17 at 11h 15m 57s.xml">
-      <configuration name="CipherTest.encipherTest" configurationId="JUnit" />
+    <history-entry file="CipherTest_decipherNonExistentTest - 2018.03.08 at 18h 37m 38s.xml">
+      <configuration name="CipherTest.decipherNonExistentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CipherTest_encipherTest - 2018.02.17 at 11h 26m 49s.xml">
-      <configuration name="CipherTest.encipherTest" configurationId="JUnit" />
+    <history-entry file="CipherTest_decipherNonExistentTest - 2018.03.08 at 18h 39m 17s.xml">
+      <configuration name="CipherTest.decipherNonExistentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CipherTest_getDictTest - 2018.02.17 at 10h 48m 34s.xml">
-      <configuration name="CipherTest.getDictTest" configurationId="JUnit" />
+    <history-entry file="CipherTest_decipherPunctuationTest - 2018.03.08 at 18h 42m 09s.xml">
+      <configuration name="CipherTest.decipherPunctuationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CipherTest_getDictTest - 2018.02.17 at 10h 56m 13s.xml">
-      <configuration name="CipherTest.getDictTest" configurationId="JUnit" />
+    <history-entry file="CipherTest_decipherPunctuationTest - 2018.03.08 at 18h 42m 42s.xml">
+      <configuration name="CipherTest.decipherPunctuationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CipherTest_recursiveTestPunctuation - 2018.02.17 at 10h 25m 53s.xml">
-      <configuration name="CipherTest.recursiveTestPunctuation" configurationId="JUnit" />
+    <history-entry file="CipherTest_decipherSingleWordTest - 2018.03.08 at 18h 34m 22s.xml">
+      <configuration name="CipherTest.decipherSingleWordTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8955000" />
+    <option name="totallyTimeSpent" value="11755000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1046" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33105022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -488,25 +492,17 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cipher/main.kt">
+    <entry file="file://$PROJECT_DIR$/src/cipher/Cipher.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/text/StringsJVM.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="320" column="24" lean-forward="false" selection-start-line="320" selection-start-column="24" selection-end-line="320" selection-end-column="24" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/cipherTest/CipherTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-725">
+        <state relative-caret-position="25">
           <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
           <folding>
             <element signature="e#19#128#0" expanded="true" />
@@ -516,8 +512,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cipher/Cipher.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-480">
-          <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/cipherTest/CipherTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding>
+            <element signature="e#19#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cipher/main.kt" />
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/text/StringsJVM.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="320" column="24" lean-forward="false" selection-start-line="320" selection-start-column="24" selection-end-line="320" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/cipherTest/CipherTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding>
+            <element signature="e#19#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cipher/Cipher.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="78" column="33" lean-forward="true" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
           <folding />
         </state>
       </provider>

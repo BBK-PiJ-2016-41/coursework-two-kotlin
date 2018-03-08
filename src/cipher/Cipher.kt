@@ -21,18 +21,18 @@ class Cipher {
     private val dictionary: ArrayList<String> = arrayListOf()
 
     /**
-     * Calls getDictionary() helper function in init statement for later use.
+     * Loads dictionary for use in the decipher function
      */
     init {
         getDictionary()
     }
 
     /**
-     * Throws an exception if n is not between 0 and 25
      * Rotates each character according to n then calls encipher recursively on the rest of the string
+     * Throws an exception if n is not between 0 and 25
      */
     fun encipher(s: String, n: Int): String = when {
-        n > 25 || n < 0 -> throw IllegalArgumentException("Number has to be between 0 and 25")
+        n > 25 || n < 0 -> throw IllegalArgumentException("Number must be between 0 and 25")
         s.isBlank() -> s
         else -> rotate(s.first(), n).plus(encipher(s.drop(1), n))
     }
@@ -42,9 +42,9 @@ class Cipher {
      */
     private fun rotate(c: Char, n: Int): Char = when {
         c.isLetter() -> {
-            var modifier = 0
+            var modifier: Int
             if (c.isUpperCase()) modifier = UPPER_MODIFIER else modifier = LOWER_MODIFIER
-            ((((c.toInt() - modifier) + n) % NUM_LETTERS) + modifier).toChar()
+            (((c.toInt() - modifier + n) % NUM_LETTERS) + modifier).toChar()
         }
         else -> c
     }
@@ -55,23 +55,35 @@ class Cipher {
      * If it finds that all words match, this rotator position is used to decode the phrase
      */
     fun decipher(s: String): String {
-        var rotator = 0
-        for(i in 0 until NUM_LETTERS) {
-            val rotated = this.encipher(s, i).split(" ")
-            var matchWords = rotated.size
-            rotated.iterator().forEach{x -> if(!dictionary.contains(x.toLowerCase())) matchWords-- }
-            if (matchWords == rotated.size) rotator = i
+        var numMatchedWords = 0
+        var bestMatch = ""
+        for(num in 0 until NUM_LETTERS) {
+            val rotated = encipher(s, num)
+            val split = rotated.split(" ")
+            var matchWords = split.size
+            split.iterator().forEach{if(!dictionary.contains(it.toLowerCase())) matchWords--}
+            if (matchWords > numMatchedWords) {
+                bestMatch = rotated
+                numMatchedWords = matchWords
+            }
+            if (matchWords == split.size) break
         }
-        return encipher(s, rotator)
+        if (numMatchedWords == 0) bestMatch = s
+        return bestMatch
     }
 
     /**
-     * Retrieves online English dictionary from given URL in text form to test whether words exist
+     * Retrieves online English dictionary from given URL in text form to test whether words exist.
+     * eneko (2014) words.txt, online available at https://github.com/eneko/data-repository/ (accessed 8/3/2018)
      */
     private fun getDictionary() {
-        val address = URL("https://raw.githubusercontent.com/eneko/data-repository/master/data/words.txt")
-        val text = address.readText().split("\n")
-        text.iterator().forEach { dictionary.add(it.toLowerCase()) }
+        try {
+            val address = URL("https://raw.githubusercontent.com/eneko/data-repository/master/data/words.txt")
+            val words = address.readText().split("\n")
+            words.iterator().forEach { dictionary.add(it.toLowerCase()) }
+        } catch (e: Exception) {
+            println("Dictionary URL not found.")
+        }
     }
 
 }
