@@ -52,7 +52,8 @@ class Cipher {
     /**
      * For each position in the alphabet, tests a rotation
      * For each word that is generated within that rotation, checks to see if there is a match in the dictionary
-     * If it finds that all words match, this rotator position is used to decode the phrase
+     * Stores the rotation that produces the best match and returns the deciphered string
+     * If no words can be found in the dictionary, returns the original string
      */
     fun decipher(s: String): String {
         var numMatchedWords = 0
